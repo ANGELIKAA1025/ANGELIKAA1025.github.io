@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+  </head>
+
+  <body>
+    <p id="quote">My quote will go here</p>
+    </body>
+    <script>
+      var element = document. getElementById('quote');
+      var quotes = ['quote1', 'quote2', 'quote3']
+      var randomNumber = Math.floor(Math.random()*3);
+      console.log(randomNumber);
+      element.innerText = quotes[randomNumber];
+  </script>
+</html>

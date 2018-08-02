@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- CSS GOES HERE -->
+    <style media="screen">
+      body{
+        background-image:url(blossom.gif);
+
+      }
+      h1 {
+        color: blue;
+        text-align: center;
+        font-style:oblique;
+        font-family: serif;
+      }
+      h2 {
+        color: Green;
+        text-align: center;
+        font-style:oblique;
+        font-family: serif;
+
+      }
+      p{
+        color: black;
+        text-align: center;
+      }
+      img{
+        width:300px;
+        text-align: center;
+      }
+
+      button{
+        background-color: blue;
+        color: yellow;
+        font-family: serif;
+
+      }
+    </style>
+
+  </head>
+
+  <!-- HTML TAGS GO IN THE BODY -->
+<body>
+  <h1>About: Angelika </h1>
+  <p><img src="bubbles gif.gif">
+  <p>I am sixteen years old</p>
+  <p><img src="sixteen.gif"></p>
+  <p>I live in brooklyn</p>
+  <p><img src="giphy.gif"></p>
+  <p>I love long walks on the beach</p>
+  <p><img src="beach.gif"> </p>
+  <script
+  <script type="text/javascript">
+  alert('bubbles is tired now');
+  if (confirm("Select 'OK'or 'Cancel'.")) {
+    txt = "";
+  } else {
+    txt = "byeeeeeeeeeeeeeee";
+  }
+  alert(txt);
+  </script>
+  <p id = "quote"></p>
+  <p><iframe src="https://open.spotify.com/embed?uri=spotify:album:1DFixLWuPkv3KT3TnV35m3" width="300"
+    height="380" frameborder="0" allowtransparency="true"
+    allow="encrypted-media"></iframe></p>
+  <p><button onclick = "funny()">!!!DARE TO PUSH!!!</button></p>
+  <h2> <a href = "mynewwebsite.html">MORE ABOUT ME</a></h2>
+</body>
+
+
+
+  <script>
+  function funny() {
+    var element = document.getElementById("quote");
+    console.log(element);
+    var quotes = ['hey', 'howdy', 'hiya'];
+    var randomNumber = Math.floor(Math.random()*3);
+    element.innerText = quotes[randomNumber];
+
+  }
+
+  </script>
+
+</html>
